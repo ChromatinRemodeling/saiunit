@@ -14,9 +14,9 @@
 # ==============================================================================
 
 
-import saiunit
+__version__ = "0.0.15"
 
-__version__ = saiunit.__version__
+import saiunit
 
 from . import autograd
 from . import constants

@@ -17,6 +17,7 @@ exclude = [
 
 [project]
 name = "brainunit"
+version = "0.0.15"
 description = "Physical Units and Unit-Aware Mathematical System for General-Purpose Brain Dynamics Modeling"
 readme = 'README.md'
 license = 'Apache-2.0'
@@ -47,10 +48,8 @@ keywords = ['physical unit', 'physical quantity', 'brain modeling']
 dependencies = [
     'numpy',
     'typing_extensions',
-    'saiunit==',
+    'saiunit==0.0.15',
 ]
-
-dynamic = ['version']
 
 [tool.flit.module]
 name = "brainunit"

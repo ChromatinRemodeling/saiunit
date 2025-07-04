@@ -5,4 +5,4 @@ rm -rf brainunit/brainunit.egg-info
 rm -rf brainunit/build
 rm -rf brainunit/dist
 rm -rf brainunit/setup.py
-rm -rf brainunit/pyproject.toml
+# rm -rf brainunit/pyproject.toml
